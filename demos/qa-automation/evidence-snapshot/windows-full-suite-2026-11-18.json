@@ -1,0 +1,36 @@
+{
+  "artifact_type": "qa_local_execution_summary",
+  "recorded_date": "2026-11-18",
+  "project": "QA Automation Starter Kit — Community Free v0.1.1",
+  "execution_type": "local_windows",
+  "provenance": "transcript of the author's locally executed PowerShell and pytest, shared in conversation; not GitHub Actions",
+  "raw_junit_xml_attached": false,
+  "report_from_raw_junit_attached": false,
+  "suite": "API_AND_UI",
+  "results": {
+    "total": 4,
+    "passed": 4,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "overall": "PASS",
+    "pytest_duration_seconds": 8.86,
+    "exact_names_verified_by_project_junit_verifier": true
+  },
+  "case_names": [
+    "test_api_001_health",
+    "test_api_002_catalog",
+    "test_ui_001_login_success",
+    "test_ui_002_invalid_login"
+  ],
+  "software": {
+    "python": "3.12.10",
+    "pytest": "8.3.4",
+    "selenium": "4.28.1",
+    "chrome": "157.0.8103.79",
+    "chromedriver": "157.0.8103.78"
+  },
+  "scope": "synthetic demonstration app hosted locally; no external customer validation",
+  "public_sanitization": "Local file paths, usernames, temporary Chrome debugging port and browser session IDs have been omitted.",
+  "not_proven": "Independent reproduction against the original JUnit XML, compatibility across environments, production use or client outcomes"
+}
