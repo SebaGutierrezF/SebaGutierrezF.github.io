@@ -2,13 +2,13 @@
 
 Este proyecto reutiliza **sin modificar** [QA Automation Starter Kit Community Free v0.1.1](https://github.com/SebaGutierrezF/qa-automation-starter-kit-free). La muestra pública original contiene 2 casos API con pytest y 2 casos UI con Selenium y un Page Object.
 
-El código de esta carpeta aporta un **convertidor de JUnit XML a HTML/JSON** y un ejecutor PowerShell para recopilar evidencias de una ejecución futura del Starter Kit Free en Windows.
+El código de esta carpeta aporta un **convertidor de JUnit XML a HTML/JSON** y un ejecutor PowerShell para recopilar evidencias de ejecuciones del Starter Kit Free en Windows.
 
 ## Qué se validó
 
 - `python -m unittest discover -s tests -v` (desde esta carpeta): **6/6 pruebas** del convertidor aprobaron localmente en Python 3.13.5 el 18-11-2026.
 - Las pruebas consideran éxito, fallo, error, omisiones, XML vacío y escape de HTML.
-- **No** se ejecutaron aquí las 4 pruebas originales API/Selenium del Starter Kit Free: requieren Python 3.12, pytest 8.3.4, Selenium 4.28.1 y Chrome/ChromeDriver locales compatibles para la UI.
+- **18-11-2026 (ejecución posterior, Windows):** el autor ejecutó los **4 tests originales API/Selenium Free** en un venv Python 3.12.10, pytest 8.3.4, Selenium 4.28.1, Chrome 157.0.8103.79 y ChromeDriver 157.0.8103.78: **4 passed in 8.86s**; verificador JUnit `TESTS=4 | SKIPPED=0 | FAILURES=0`; resumen `TOTAL=4 STATUS=PASS`. Estos resultados proceden del log de consola compartido por el autor, no de una ejecución de CI. El XML original existe en el equipo del autor y **no se ha adjuntado para una verificación independiente**. [Registro público sanitizado](evidence-snapshot/windows-full-suite-2026-11-18.md).
 
 ## Ejecución en Windows
 

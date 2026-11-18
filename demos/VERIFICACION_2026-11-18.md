@@ -13,7 +13,7 @@ Desde `demos/qa-automation/`: `python -m unittest discover -s tests -v`.
 - **6/6 tests aprobados**, 0 fallidos/errores de los 6 ejercicios del convertidor JUnit → HTML/JSON.
 - Casos: XML vacío, error, fallo, pase, omisión y escape de contenido HTML.
 - [Salida de unittest](qa-automation/evidence-snapshot/tests.log).
-- **Pendiente**: ejecutar los **4 tests del Starter Kit Free** (2 API + 2 UI/Selenium) en Windows con versiones y drivers requeridos. No se dispone de JUnit nuevo de esos cuatro casos en este registro.
+- **Validación posterior del 18-11-2026 en Windows (ejecutada por el autor):** suite Free de **4/4 PASS** (2 API, 2 UI/Selenium), **0 errores/omisiones/fallos**, pytest **8.86 s**, con verificador `QA_SK_002_JUNIT_OK | TESTS=4 | SKIPPED=0 | FAILURES=0`. Entorno: Python 3.12.10, pytest 8.3.4, Selenium 4.28.1, Chrome 157.0.8103.79 y ChromeDriver 157.0.8103.78. [Salida sanitizada proporcionada por el autor](qa-automation/evidence-snapshot/windows-full-suite-2026-11-18.md) · [Resumen estructurado](qa-automation/evidence-snapshot/windows-full-suite-2026-11-18.json). **No se ha adjuntado el XML JUnit original**, por lo que la validación pública se fundamenta en el log presentado por el autor, no en una verificación independiente de ese XML.
 
 ## Automatización y conciliación Python
 
