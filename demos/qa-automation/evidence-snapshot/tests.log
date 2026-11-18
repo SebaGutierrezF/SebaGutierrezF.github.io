@@ -1,0 +1,11 @@
+test_empty_xml_rejected (test_reports.ReporterTests.test_empty_xml_rejected) ... ok
+test_error_not_pass (test_reports.ReporterTests.test_error_not_pass) ... ok
+test_failure_not_pass (test_reports.ReporterTests.test_failure_not_pass) ... ok
+test_pass_real_xml_format (test_reports.ReporterTests.test_pass_real_xml_format) ... ok
+test_skip_not_pass (test_reports.ReporterTests.test_skip_not_pass) ... ok
+test_untrusted_name_escaped (test_reports.ReporterTests.test_untrusted_name_escaped) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.025s
+
+OK
