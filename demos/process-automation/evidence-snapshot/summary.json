@@ -1,0 +1,20 @@
+{
+  "generated_at_utc": "2026-11-18T15:15:28.352183+00:00",
+  "mode": "DRY_RUN_ONLY",
+  "total": 10,
+  "would_execute": 3,
+  "hold": 2,
+  "review": 3,
+  "skip": 2,
+  "by_outcome": {
+    "HOLD_ACCOUNT_CONFLICT": 1,
+    "HOLD_NOT_APPROVED": 1,
+    "REVIEW_INVALID_APPROVAL": 1,
+    "REVIEW_INVALID_PLAN": 1,
+    "REVIEW_UNKNOWN_ACCOUNT": 1,
+    "SKIP_ALREADY_SATISFIED": 1,
+    "SKIP_DUPLICATE": 1,
+    "WOULD_EXECUTE": 3
+  },
+  "external_mutations": 0
+}
