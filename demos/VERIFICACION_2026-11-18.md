@@ -15,6 +15,12 @@ Desde `demos/qa-automation/`: `python -m unittest discover -s tests -v`.
 - [Salida de unittest](qa-automation/evidence-snapshot/tests.log).
 - **Validación posterior del 18-11-2026 en Windows (ejecutada por el autor):** suite Free de **4/4 PASS** (2 API, 2 UI/Selenium), **0 errores/omisiones/fallos**, pytest **8.86 s**, con verificador `QA_SK_002_JUNIT_OK | TESTS=4 | SKIPPED=0 | FAILURES=0`. Entorno: Python 3.12.10, pytest 8.3.4, Selenium 4.28.1, Chrome 157.0.8103.79 y ChromeDriver 157.0.8103.78. [Salida sanitizada proporcionada por el autor](qa-automation/evidence-snapshot/windows-full-suite-2026-11-18.md) · [Resumen estructurado](qa-automation/evidence-snapshot/windows-full-suite-2026-11-18.json). **No se ha adjuntado el XML JUnit original**, por lo que la validación pública se fundamenta en el log presentado por el autor, no en una verificación independiente de ese XML.
 
+### Evidencia JUnit adicional recibida el 20-11-2026
+
+Se recibieron y verificaron en conjunto dos artefactos sanitizados derivados del XML JUnit original de la suite Free: [XML JUnit](qa-automation/evidence-snapshot/sanitized-junit.xml) y [JSON estructurado](qa-automation/evidence-snapshot/sanitized-junit-summary.json). Coinciden exactamente los cuatro casos previstos, 4 PASS, 0 fallos, 0 errores, 0 omisiones y duraciones individuales (`0.009`, `0.002`, `3.938`, `3.805` segundos). La revisión de privacidad no detectó rutas locales ni credenciales en estos archivos.
+
+El JSON recoge `source_sha256=475c92eb52f7014520a9b4b9b39db405194cc0ecfe63c6e4e27c603d134e888a`, **declarado por el proceso local**. No se recibió el JUnit sin sanitizar, por lo tanto **no se verificó independientemente esa huella contra los bytes del archivo original**. El resultado sigue siendo una evidencia local documentada, no una ejecución de GitHub Actions.
+
 ## Automatización y conciliación Python
 
 Desde `demos/process-automation/`:
