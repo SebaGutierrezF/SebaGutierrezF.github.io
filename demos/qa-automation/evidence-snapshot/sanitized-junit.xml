@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<testsuite name="QA Free v0.1.1 sanitized" tests="4" failures="0" errors="0" skipped="0">
+  <testcase name="test_api_001_health" time="0.009" />
+  <testcase name="test_api_002_catalog" time="0.002" />
+  <testcase name="test_ui_001_login_success" time="3.938" />
+  <testcase name="test_ui_002_invalid_login" time="3.805" />
+</testsuite>

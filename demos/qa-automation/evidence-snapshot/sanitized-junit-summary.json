@@ -1,0 +1,36 @@
+{
+  "artifact_type": "sanitized_junit_derived_summary",
+  "project": "QA Automation Starter Kit Free v0.1.1",
+  "source_type": "original_local_pytest_junit_xml",
+  "source_sha256": "475c92eb52f7014520a9b4b9b39db405194cc0ecfe63c6e4e27c603d134e888a",
+  "source_modified_at_utc": "2026-11-18T18:09:37.933441+00:00",
+  "total": 4,
+  "passed": 4,
+  "failed": 0,
+  "errors": 0,
+  "skipped": 0,
+  "overall": "PASS",
+  "cases": [
+    {
+      "name": "test_api_001_health",
+      "status": "PASSED",
+      "duration_seconds": "0.009"
+    },
+    {
+      "name": "test_api_002_catalog",
+      "status": "PASSED",
+      "duration_seconds": "0.002"
+    },
+    {
+      "name": "test_ui_001_login_success",
+      "status": "PASSED",
+      "duration_seconds": "3.938"
+    },
+    {
+      "name": "test_ui_002_invalid_login",
+      "status": "PASSED",
+      "duration_seconds": "3.805"
+    }
+  ],
+  "privacy": "Only public test names, status and durations retained"
+}
