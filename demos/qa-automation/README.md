@@ -10,6 +10,15 @@ El código de esta carpeta aporta un **convertidor de JUnit XML a HTML/JSON** y 
 - Las pruebas consideran éxito, fallo, error, omisiones, XML vacío y escape de HTML.
 - **18-11-2026 (ejecución posterior, Windows):** el autor ejecutó los **4 tests originales API/Selenium Free** en un venv Python 3.12.10, pytest 8.3.4, Selenium 4.28.1, Chrome 157.0.8103.79 y ChromeDriver 157.0.8103.78: **4 passed in 8.86s**; verificador JUnit `TESTS=4 | SKIPPED=0 | FAILURES=0`; resumen `TOTAL=4 STATUS=PASS`. Estos resultados proceden del log de consola compartido por el autor, no de una ejecución de CI. El XML original existe en el equipo del autor y **no se ha adjuntado para una verificación independiente**. [Registro público sanitizado](evidence-snapshot/windows-full-suite-2026-11-18.md).
 
+## Artefactos JUnit sanitizados adjuntos (revisados el 20-11-2026)
+
+Tras la ejecución completa del 18-11-2026, el autor ejecutó la sanitización del JUnit original y entregó dos archivos que ahora se incluyen en este repositorio:
+
+- [sanitized-junit.xml](evidence-snapshot/sanitized-junit.xml): exactamente cuatro testcases públicos, con nombre y tiempo individual; `tests=4`, `failures=errors=skipped=0`.
+- [sanitized-junit-summary.json](evidence-snapshot/sanitized-junit-summary.json): derivación declarada del mismo JUnit, cuatro resultados PASS y SHA-256 del fichero original reportado por la ejecución local.
+
+Se comprobaron las coincidencias XML/JSON y se revisó que ninguno contuviera rutas o credenciales. **No se recibió el JUnit sin sanitizar**, por lo que la huella `source_sha256` no se puede verificar independientemente contra el archivo original. El informe corresponde a una ejecución local de una aplicación sintética, **no** CI ni resultados de clientes.
+
 ## Ejecución en Windows
 
 1. Obtener el Starter Kit Free desde GitHub y preparar el Python local con las versiones especificadas en su README.
